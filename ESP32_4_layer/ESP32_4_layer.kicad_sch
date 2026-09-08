@@ -6515,7 +6515,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9cd02716-8477-4e3f-bf93-02503e2565f1")
-		(property "Reference" "J1"
+		(property "Reference" "J2"
 			(at 48.768 141.478 0)
 			(effects
 				(font
@@ -6699,7 +6699,7 @@
 		(instances
 			(project ""
 				(path "/052df048-a7d0-4515-b7e6-6d4a36313ca3"
-					(reference "J1")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -8001,8 +8001,8 @@
 		)
 	)
 	(sheet
-		(at 130.81 140.97)
-		(size 29.21 8.89)
+		(at 229.87 138.43)
+		(size 27.94 6.35)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -8011,13 +8011,14 @@
 		(stroke
 			(width 0.1524)
 			(type solid)
+			(color 255 0 46 1)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 255 0 23 1.0000)
 		)
 		(uuid "8eb72682-883d-43eb-a283-0b8e7a8d42e7")
 		(property "Sheetname" "ESP32 C3 02"
-			(at 130.81 140.2584 0)
+			(at 229.87 137.7184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8026,7 +8027,7 @@
 			)
 		)
 		(property "Sheetfile" "ESP32 C3 02.kicad_sch"
-			(at 130.81 150.4446 0)
+			(at 229.87 145.3646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
