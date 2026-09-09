@@ -3183,6 +3183,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 135.89) (xy 171.45 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "003ad853-6994-4468-85d3-733c9a96a887")
+	)
+	(wire
+		(pts
 			(xy 219.71 45.72) (xy 219.71 50.8)
 		)
 		(stroke
@@ -3513,6 +3523,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 138.43) (xy 171.45 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60eca635-980f-4567-9f2e-1729c54891cc")
+	)
+	(wire
+		(pts
 			(xy 102.87 109.22) (xy 102.87 106.68)
 		)
 		(stroke
@@ -3690,6 +3710,16 @@
 			(type default)
 		)
 		(uuid "891d1866-24fc-4a7a-b165-9e0f1f9ed5d5")
+	)
+	(wire
+		(pts
+			(xy 175.26 142.24) (xy 171.45 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89bf8262-3649-4065-b9b9-c5087ca5d74e")
 	)
 	(wire
 		(pts
@@ -4151,6 +4181,16 @@
 		)
 		(uuid "fff78734-ca3b-49bf-a4bd-8655ea8139ed")
 	)
+	(label "USB_DP"
+		(at 175.26 138.43 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "07558694-f15d-4d86-8700-757796f8a111")
+	)
 	(label "VBUS"
 		(at 48.26 43.18 180)
 		(effects
@@ -4251,6 +4291,16 @@
 		)
 		(uuid "5b3a6a3f-3844-4479-a8c9-a02ec1666c76")
 	)
+	(label "VBUS"
+		(at 175.26 142.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5fb5efc5-4d92-499c-bfee-1fa17139c9e9")
+	)
 	(label "CHARGED"
 		(at 220.98 66.04 0)
 		(effects
@@ -4301,6 +4351,16 @@
 		)
 		(uuid "c3db2d81-0df9-4a34-ad8e-19bb2aea2827")
 	)
+	(label "USB_DN"
+		(at 175.26 135.89 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d1c6415b-d3ed-44b9-a20e-c99d095d016b")
+	)
 	(label "+5V_USB"
 		(at 245.11 63.5 0)
 		(effects
@@ -4340,6 +4400,39 @@
 			(justify left bottom)
 		)
 		(uuid "fde1704e-ceb2-4ed3-8fd1-d5954bd915a8")
+	)
+	(hierarchical_label "USB_DP"
+		(shape input)
+		(at 171.45 138.43 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e75065c3-e428-44e6-8ed3-b3dc2ce4cca7")
+	)
+	(hierarchical_label "USB_DN"
+		(shape input)
+		(at 171.45 135.89 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f4c4a492-698f-4a8b-ac6b-25598974fc95")
+	)
+	(hierarchical_label "VBUS"
+		(shape input)
+		(at 171.45 142.24 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fe7151b0-910e-4749-92e6-d91283536e4a")
 	)
 	(symbol
 		(lib_id "Own_Library:LM1117MPX-3.3_NOPB")
@@ -8001,8 +8094,8 @@
 		)
 	)
 	(sheet
-		(at 229.87 138.43)
-		(size 27.94 6.35)
+		(at 143.51 133.35)
+		(size 27.94 16.51)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -8018,7 +8111,7 @@
 		)
 		(uuid "8eb72682-883d-43eb-a283-0b8e7a8d42e7")
 		(property "Sheetname" "ESP32 C3 02"
-			(at 229.87 137.7184 0)
+			(at 143.51 132.6384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8027,7 +8120,7 @@
 			)
 		)
 		(property "Sheetfile" "ESP32 C3 02.kicad_sch"
-			(at 229.87 145.3646 0)
+			(at 143.51 150.4446 0)
 			(effects
 				(font
 					(size 1.27 1.27)

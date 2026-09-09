@@ -3797,6 +3797,16 @@
 	)
 	(wire
 		(pts
+			(xy 262.89 125.73) (xy 260.35 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23b37e15-f697-4b71-9c17-962a3f733336")
+	)
+	(wire
+		(pts
 			(xy 205.74 156.21) (xy 205.74 152.4)
 		)
 		(stroke
@@ -3944,6 +3954,16 @@
 			(type default)
 		)
 		(uuid "4db3c325-2e3d-4b6b-b70b-f9f20811b4a8")
+	)
+	(wire
+		(pts
+			(xy 262.89 133.35) (xy 260.35 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f0386c9-d022-4544-bdcc-7b2207237e3e")
 	)
 	(wire
 		(pts
@@ -4137,6 +4157,16 @@
 	)
 	(wire
 		(pts
+			(xy 262.89 128.27) (xy 260.35 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89410efe-a41c-4033-b2db-1563836f6290")
+	)
+	(wire
+		(pts
 			(xy 48.26 41.91) (xy 48.26 43.18)
 		)
 		(stroke
@@ -4214,6 +4244,16 @@
 			(type default)
 		)
 		(uuid "9eb045a8-5f87-42c0-9d7a-1412044eb003")
+	)
+	(wire
+		(pts
+			(xy 262.89 130.81) (xy 260.35 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a230ec22-2074-47ed-817f-d2ac760c7717")
 	)
 	(wire
 		(pts
@@ -4635,6 +4675,30 @@
 		)
 		(uuid "ffcb13d9-270e-429e-a9e0-0d007dc05d42")
 	)
+	(label "SDA"
+		(at 262.89 133.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "0736cee2-d16b-4d35-a38d-cffd778d4d21")
+	)
+	(label "MIC_OUT"
+		(at 262.89 125.73 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "255fcf57-aa38-4f89-adde-77d31dbe4946")
+	)
 	(label "GPIO18"
 		(at 203.2 58.42 0)
 		(effects
@@ -4797,6 +4861,18 @@
 		)
 		(uuid "7ac05c4b-e9eb-48b7-8403-c3c387b4c45f")
 	)
+	(label "SCL"
+		(at 262.89 130.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "8882e766-dc7b-465f-a8b0-cdd72008d56c")
+	)
 	(label "MOSI_DI"
 		(at 219.71 48.26 0)
 		(effects
@@ -4830,6 +4906,18 @@
 			(justify right bottom)
 		)
 		(uuid "a9172028-f3d1-4ca4-a238-87fb3db9609d")
+	)
+	(label "PHOTO_C"
+		(at 262.89 128.27 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "aed31571-58e3-4b25-b478-83887c2f616c")
 	)
 	(label "MISO_DO"
 		(at 167.64 53.34 180)
@@ -8872,7 +8960,7 @@
 		)
 	)
 	(sheet
-		(at 243.84 146.05)
+		(at 246.38 144.78)
 		(size 13.97 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8888,7 +8976,7 @@
 		)
 		(uuid "e711d28d-52f5-4ed2-ad85-68ea502900da")
 		(property "Sheetname" "User Interface"
-			(at 243.84 145.3384 0)
+			(at 246.38 144.0684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8897,7 +8985,7 @@
 			)
 		)
 		(property "Sheetfile" "User_Interface.kicad_sch"
-			(at 243.84 159.3346 0)
+			(at 246.38 158.0646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8914,7 +9002,7 @@
 		)
 	)
 	(sheet
-		(at 242.57 123.19)
+		(at 246.38 123.19)
 		(size 13.97 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8926,11 +9014,11 @@
 			(type solid)
 		)
 		(fill
-			(color 37 17 255 1.0000)
+			(color 39 252 255 1.0000)
 		)
 		(uuid "f0ef0ead-4efc-45c3-b9e3-f77bcee4fcd0")
 		(property "Sheetname" "Sensors"
-			(at 242.57 122.4784 0)
+			(at 246.38 122.4784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8939,12 +9027,52 @@
 			)
 		)
 		(property "Sheetfile" "Sensors.kicad_sch"
-			(at 242.57 136.4746 0)
+			(at 246.38 136.4746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "MIC_OUT" output
+			(at 260.35 125.73 0)
+			(uuid "bac6c1ac-79ea-490f-9a35-6f04cf38d53f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PHOTO_C" output
+			(at 260.35 128.27 0)
+			(uuid "487bc8ba-c1df-49f3-8bcd-db0b277c4b3d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCL" input
+			(at 260.35 130.81 0)
+			(uuid "ec84202c-8280-4369-91e5-4283609adb3f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SDA" input
+			(at 260.35 133.35 0)
+			(uuid "8bc53a15-a031-4dec-9c9e-639054c360fa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances

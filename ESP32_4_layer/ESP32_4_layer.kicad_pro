@@ -416,6 +416,14 @@
     [
       "8eb72682-883d-43eb-a283-0b8e7a8d42e7",
       "ESP32 C3 02"
+    ],
+    [
+      "f0ef0ead-4efc-45c3-b9e3-f77bcee4fcd0",
+      "Sensors"
+    ],
+    [
+      "e711d28d-52f5-4ed2-ad85-68ea502900da",
+      "User Interface"
     ]
   ],
   "text_variables": {}
