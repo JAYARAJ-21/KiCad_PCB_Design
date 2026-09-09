@@ -4641,7 +4641,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Own_Library:Green_led_LTST-C170GKT"
 			(at 233.68 68.58 0)
 			(effects
 				(font
@@ -4719,7 +4719,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Own_Library:Red_Led"
 			(at 233.68 63.5 0)
 			(effects
 				(font
@@ -4795,7 +4795,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 166.37 55.118 90)
 			(effects
 				(font
@@ -5344,7 +5344,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 113.3348 45.72 0)
 			(effects
 				(font
@@ -5609,7 +5609,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Own_Library:T491A_Tantalum_Capacitor"
 			(at 120.3452 114.3 0)
 			(effects
 				(font
@@ -5678,7 +5678,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 55.5752 116.84 0)
 			(effects
 				(font
@@ -5881,7 +5881,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 170.4848 29.21 0)
 			(effects
 				(font
@@ -6015,7 +6015,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 173.99 60.198 90)
 			(effects
 				(font
@@ -6084,7 +6084,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 45.4152 116.84 0)
 			(effects
 				(font
@@ -6220,7 +6220,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 110.1852 114.3 0)
 			(effects
 				(font
@@ -6287,7 +6287,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 224.79 65.278 90)
 			(effects
 				(font
@@ -6490,7 +6490,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 36.83 47.498 90)
 			(effects
 				(font
@@ -6557,7 +6557,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 176.53 109.982 90)
 			(effects
 				(font
@@ -6957,7 +6957,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 173.99 65.278 90)
 			(effects
 				(font
@@ -7091,7 +7091,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 223.52 70.358 90)
 			(effects
 				(font
@@ -7226,7 +7226,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Own_Library:Red_Led"
 			(at 166.37 111.76 0)
 			(effects
 				(font
@@ -7435,7 +7435,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 229.87 44.7548 0)
 			(effects
 				(font
@@ -7569,7 +7569,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 101.6 47.498 90)
 			(effects
 				(font
@@ -7637,7 +7637,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 229.87 37.1348 0)
 			(effects
 				(font
@@ -7704,7 +7704,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 223.52 60.198 90)
 			(effects
 				(font
@@ -7771,7 +7771,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 166.37 50.038 90)
 			(effects
 				(font
@@ -7972,7 +7972,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Own_Library:Belfuse_FUSC3225X100N"
 			(at 123.19 41.91 0)
 			(effects
 				(font
@@ -8042,7 +8042,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Own_Library:Blue_Led_"
 			(at 233.68 58.42 0)
 			(effects
 				(font
