@@ -3273,7 +3273,7 @@
 				)
 			)
 		)
-		(property "Footprint" "USLPT2819DT2TR:SW_USLPT2819DT2TR"
+		(property "Footprint" "Own_Library:SW_USLPT2819DT2TR"
 			(at 234.95 68.58 0)
 			(effects
 				(font
@@ -3732,7 +3732,7 @@
 				)
 			)
 		)
-		(property "Footprint" "USLPT2819DT2TR:SW_USLPT2819DT2TR"
+		(property "Footprint" "Own_Library:SW_USLPT2819DT2TR"
 			(at 248.92 124.46 0)
 			(effects
 				(font

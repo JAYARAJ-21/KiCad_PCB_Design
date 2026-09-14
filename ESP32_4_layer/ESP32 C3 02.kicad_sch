@@ -3987,7 +3987,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 148.59) (xy 76.2 148.59)
+			(xy 76.2 148.59) (xy 83.82 148.59)
 		)
 		(stroke
 			(width 0)
@@ -4294,16 +4294,6 @@
 			(type default)
 		)
 		(uuid "9e9eaa2a-d9dc-456b-9992-7024fe204293")
-	)
-	(wire
-		(pts
-			(xy 52.07 76.2) (xy 52.07 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9eb045a8-5f87-42c0-9d7a-1412044eb003")
 	)
 	(wire
 		(pts
@@ -5432,7 +5422,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:SiliconLabs_QFN-20-1EP_3x3mm_P0.5mm"
+		(property "Footprint" "Own_Library:QFN20_CP2102N_SIL"
 			(at 118.11 96.52 0)
 			(effects
 				(font
@@ -6822,7 +6812,7 @@
 				)
 			)
 		)
-		(property "Footprint" "GSD090012SEU:AMPHENOL_GSD090012SEU"
+		(property "Footprint" "Own_Library:GSD090012SEU_SDCard_connector"
 			(at 58.42 148.59 0)
 			(effects
 				(font
@@ -8491,7 +8481,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ESP32-C3-WROOM-02-H4:MODULE_ESP32-C3-WROOM-02-H4"
+		(property "Footprint" "Own_Library:ESP32-C3-WROOM-02-H4"
 			(at 185.42 58.42 0)
 			(effects
 				(font
