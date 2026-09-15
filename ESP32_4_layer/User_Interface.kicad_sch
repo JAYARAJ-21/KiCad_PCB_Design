@@ -2297,7 +2297,7 @@
 		)
 		(uuid "61b5e731-e288-4a84-9f12-9fb1b7d3454b")
 	)
-	(hierarchical_label "SCL"
+	(hierarchical_label "SDA"
 		(shape bidirectional)
 		(at 107.95 67.31 0)
 		(effects
@@ -2362,7 +2362,7 @@
 		)
 		(uuid "b718be72-3faf-4ff7-9f94-254fd029a149")
 	)
-	(hierarchical_label "SDA"
+	(hierarchical_label "SCL"
 		(shape bidirectional)
 		(at 107.95 64.77 0)
 		(effects
