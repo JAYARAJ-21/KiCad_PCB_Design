@@ -1777,22 +1777,10 @@
 		(uuid "13163f81-bb6d-4585-be7e-0f50f8447c9b")
 	)
 	(junction
-		(at 196.85 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "20252fb9-6909-4e8d-ab69-61041a81c1ac")
-	)
-	(junction
 		(at 87.63 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "281956b9-6d04-45c1-92da-2e29ff5421a2")
-	)
-	(junction
-		(at 189.23 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "349dcc28-c958-4c02-8fde-0d0b5bcec90d")
 	)
 	(junction
 		(at 68.58 53.34)
@@ -1849,12 +1837,6 @@
 		(uuid "924ba667-1711-46fb-ad5e-082a984b6388")
 	)
 	(junction
-		(at 172.72 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a26d8452-7189-440a-8553-d597316c61ba")
-	)
-	(junction
 		(at 223.52 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1871,6 +1853,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f4f6c68c-ea41-45c5-af99-7c8d8cd13a16")
+	)
+	(junction
+		(at 172.72 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f64fd732-6347-4e0c-8914-f96a2cc3df6c")
 	)
 	(wire
 		(pts
@@ -1914,23 +1902,13 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 101.6) (xy 189.23 105.41)
+			(xy 181.61 101.6) (xy 181.61 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "167a1bbc-84d9-42e8-83e8-d1e254a79216")
-	)
-	(wire
-		(pts
-			(xy 196.85 101.6) (xy 189.23 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1893fdbc-4f67-4985-bcaf-38b85213e358")
 	)
 	(wire
 		(pts
@@ -2074,16 +2052,6 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 88.9) (xy 189.23 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "48ba1006-fc41-4dcd-9bf7-15083f171783")
-	)
-	(wire
-		(pts
 			(xy 86.36 68.58) (xy 87.63 68.58)
 		)
 		(stroke
@@ -2111,6 +2079,16 @@
 			(type default)
 		)
 		(uuid "4f54f78a-592f-4bc2-b38e-dfe82ec9bbb4")
+	)
+	(wire
+		(pts
+			(xy 189.23 92.71) (xy 189.23 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53f574d9-597f-4122-83bc-4b114332db6a")
 	)
 	(wire
 		(pts
@@ -2151,26 +2129,6 @@
 			(type default)
 		)
 		(uuid "6639bbe8-a6e1-4361-9950-a14bf51b7ec2")
-	)
-	(wire
-		(pts
-			(xy 172.72 82.55) (xy 181.61 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "672ee961-7701-4f31-bef2-9a4e07ddb134")
-	)
-	(wire
-		(pts
-			(xy 189.23 96.52) (xy 189.23 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7172691c-3f12-41bd-9c6a-e5be33f548f9")
 	)
 	(wire
 		(pts
@@ -2234,6 +2192,16 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 101.6) (xy 189.23 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ec87b26-a9f3-4a61-993d-323b8e28e7c5")
+	)
+	(wire
+		(pts
 			(xy 170.18 87.63) (xy 170.18 101.6)
 		)
 		(stroke
@@ -2261,6 +2229,16 @@
 			(type default)
 		)
 		(uuid "9c61fcc2-59b1-4513-a3de-af60d8c9d63d")
+	)
+	(wire
+		(pts
+			(xy 180.34 82.55) (xy 181.61 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0c0eda3-9bf8-405a-b9ba-73669df572af")
 	)
 	(wire
 		(pts
@@ -2504,16 +2482,6 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 101.6) (xy 189.23 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fd285d05-25a8-4ded-b40c-9b6c6612149d")
-	)
-	(wire
-		(pts
 			(xy 170.18 101.6) (xy 181.61 101.6)
 		)
 		(stroke
@@ -2521,6 +2489,16 @@
 			(type default)
 		)
 		(uuid "fd6a8801-a126-4cfd-82a2-594c81a78e9c")
+	)
+	(label "IN+"
+		(at 191.77 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5e12efe9-7f9f-43f1-8e19-7b25d172f33b")
 	)
 	(hierarchical_label "PHOTO_C"
 		(shape output)
@@ -2845,6 +2823,73 @@
 			(project "ESP32_4_layer"
 				(path "/052df048-a7d0-4515-b7e6-6d4a36313ca3/8eb72682-883d-43eb-a283-0b8e7a8d42e7/f0ef0ead-4efc-45c3-b9e3-f77bcee4fcd0"
 					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 189.23 97.79 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3753d719-bc17-4a5d-bf5c-ced120c51aeb")
+		(property "Reference" "C23"
+			(at 192.024 95.504 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1uf"
+			(at 191.77 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 188.2648 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 189.23 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 189.23 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "10b200bf-c4d3-4e2d-9225-9c423526ea03")
+		)
+		(pin "2"
+			(uuid "76d15f57-7e7f-4fc5-af74-136353140d2f")
+		)
+		(instances
+			(project "ESP32_4_layer"
+				(path "/052df048-a7d0-4515-b7e6-6d4a36313ca3/8eb72682-883d-43eb-a283-0b8e7a8d42e7/f0ef0ead-4efc-45c3-b9e3-f77bcee4fcd0"
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -3955,7 +4000,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 189.23 105.41 0)
+		(at 181.61 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3964,7 +4009,7 @@
 		(fields_autoplaced yes)
 		(uuid "8ab894b4-4212-47e8-b8c1-f5e72bd8f1a9")
 		(property "Reference" "#PWR046"
-			(at 189.23 111.76 0)
+			(at 181.61 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3973,7 +4018,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 189.23 110.49 0)
+			(at 181.61 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3982,7 +4027,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 189.23 105.41 0)
+			(at 181.61 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3991,7 +4036,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 189.23 105.41 0)
+			(at 181.61 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4000,7 +4045,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 189.23 105.41 0)
+			(at 181.61 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4222,7 +4267,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 189.23 92.71 0)
+		(at 189.23 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4230,7 +4275,7 @@
 		(dnp no)
 		(uuid "a8f43226-506c-4cdc-aea3-acf820237d32")
 		(property "Reference" "R25"
-			(at 192.278 90.424 0)
+			(at 192.278 86.614 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4238,7 +4283,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 192.532 92.71 0)
+			(at 192.532 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4246,7 +4291,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 187.452 92.71 90)
+			(at 187.452 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4255,7 +4300,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 189.23 92.71 0)
+			(at 189.23 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4264,7 +4309,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 189.23 92.71 0)
+			(at 189.23 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4439,6 +4484,73 @@
 			(project ""
 				(path "/052df048-a7d0-4515-b7e6-6d4a36313ca3/8eb72682-883d-43eb-a283-0b8e7a8d42e7/f0ef0ead-4efc-45c3-b9e3-f77bcee4fcd0"
 					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 176.53 82.55 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aa175721-be4d-43cc-b174-a84e5e7f4422")
+		(property "Reference" "C24"
+			(at 178.816 85.344 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10nf"
+			(at 173.99 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 180.34 81.5848 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 176.53 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 176.53 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "04814d14-f507-4b69-a9b9-74dc92750d7b")
+		)
+		(pin "2"
+			(uuid "612dbb1d-5c56-4e48-93dc-8f666854354b")
+		)
+		(instances
+			(project "ESP32_4_layer"
+				(path "/052df048-a7d0-4515-b7e6-6d4a36313ca3/8eb72682-883d-43eb-a283-0b8e7a8d42e7/f0ef0ead-4efc-45c3-b9e3-f77bcee4fcd0"
+					(reference "C24")
 					(unit 1)
 				)
 			)
