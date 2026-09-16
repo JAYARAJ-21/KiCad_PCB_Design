@@ -68,7 +68,40 @@
           "width": 0.25
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "connection_width|169530000|69830000|4a310d63-986c-4039-bc42-50bed9479f9d|f8e51e97-16a0-4a0d-bcb0-57e65f24495f",
+          ""
+        ],
+        [
+          "connection_width|169530000|70930000|91add2e3-8ba0-4c10-a7fa-4edf60c08b9d|a2509fc0-8fc1-4341-a014-3d715d26c2ba",
+          ""
+        ],
+        [
+          "connection_width|169930000|69830000|fb9538ea-5872-419b-9a1d-60948ca89f61|ce938fc6-1a7c-4e20-8408-42e9324f66e2",
+          ""
+        ],
+        [
+          "connection_width|169930000|70930000|3d5e2609-1c1e-4ff3-87f1-c533f99bbfe1|35c0014a-2ee7-4310-babd-88fbc437c241",
+          ""
+        ],
+        [
+          "connection_width|171380000|71280000|3d5e2609-1c1e-4ff3-87f1-c533f99bbfe1|46d5106b-9e31-4d2a-a882-ecaac151d727",
+          ""
+        ],
+        [
+          "connection_width|171380000|71680000|caabf363-3873-47a8-a57f-e83b0ce9aa62|6d9d0b2f-a186-4c49-8d17-a3037d880c86",
+          ""
+        ],
+        [
+          "via_dangling|116650000|85640000|6b7dd486-1ae9-4677-89ca-96914d04e417|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "via_dangling|117760000|85640000|dcc3242e-9f31-4824-8af1-20f1f44094dd|00000000-0000-0000-0000-000000000000",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -135,7 +168,7 @@
         "max_error": 0.005,
         "min_clearance": 0.1651,
         "min_connection": 0.1651,
-        "min_copper_edge_clearance": 0.5,
+        "min_copper_edge_clearance": 0.4,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.3048,
         "min_hole_to_hole": 0.3048,
@@ -143,12 +176,12 @@
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.1524,
-        "min_text_height": 0.65,
-        "min_text_thickness": 0.078,
-        "min_through_hole_diameter": 0.4,
+        "min_text_height": 1.016,
+        "min_text_thickness": 0.15,
+        "min_through_hole_diameter": 0.17,
         "min_track_width": 0.2,
-        "min_via_annular_width": 0.1651,
-        "min_via_diameter": 0.5,
+        "min_via_annular_width": 0.1,
+        "min_via_diameter": 0.27,
         "solder_mask_to_copper_clearance": 0.1524,
         "use_height_for_length_calcs": true
       },
